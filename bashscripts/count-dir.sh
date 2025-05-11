@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# Check if the directory path to be counted, is entered.
+# Check if the directory path with the files to be counted, was entered.
 if [ -z "$1" ]; then
     echo -e "Error: The directory path that has the files to be counted, was not entered! \nHow to use: $0 <the absolute directory path>"
     exit 1
