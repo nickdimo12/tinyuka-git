@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# Check if the name of the file to be checked for, is entered.
+# Check if the name of the file to be checked for, was entered.
 if [ -z "$1" ];  then
         echo -e "Error: the name of file to be checked for, was not entered! \nHow to use: $0 <the name of the file to check for>"
         exit 1
