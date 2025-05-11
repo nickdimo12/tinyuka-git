@@ -9,9 +9,9 @@ fi
 filename="$1"
 
 # Check if the file does exist.
-
 if [ -f "$filename" ]; then
         echo "The file with the filename: '$filename', exist."
 else
         echo "The file with the filename: '$filename' does not exist."
 fi
+
